@@ -1,3 +1,113 @@
+ *{
+ box-sizing: border-box;
+ }
+ body{
+    background-color: rgb(68, 88, 119, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
 header{
-    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-decoration: none;
+    display:flex
+    justify-content: space-between;
+}
+header h1{
+    text-align: left;
+    font-size: 60px;
+    margin: 0px;
+    padding:5px;
+    display: inline-block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    background-color:rgb(119, 233, 233) ;
+    color:rgb(68, 88, 119, 1);
+    line-height: 1.5;
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+nav a{
+    text-decoration: none;
+    background-color:rgb(68, 88, 119, 1);
+    color:rgb(119, 233, 233);
+    font-size: 30px;
+    box-shadow: none;
+    text-align: right;
+    padding: 15px;
+    box-shadow: 5px;
+    margin: 5px;
+    margin-right:10px;
+    padding:10px 10px 10px;
+
+    
+}
+
+.image3{
+    background-image: url("./assets/css/brownzigzag.jpeg"); 
+    background-position: center;
+    background-size: 80px;
+    display:flex;
+    align-items:flex-end;
+    background-size:cover;
+    
+    
+}
+.image3 h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(68, 88, 119, 1);
+    background-color: rgb(119, 233, 233);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:inline
+
+}
+.personalbackground{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(216, 218, 233);
+    margin-bottom:0px;
+}
+.about{
+    text-align:right;
+    margin-left: 0px;
+}
+.about h2{
+    text-align:left;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.about p{
+    margin-left: 200px;
+}
+
+.surfreport{
+    border-style: solid;
+    border-color: rgb(119, 233, 233);
+    background-image:url("../css/bluesky.jpeg");
+    align:right;
+}
+.Endinggroup {
+    margin: 20px;
+    text-decoration:none;
+    height:100%;
+
+}
+
+@media screen and (max-width:980px) 
+    header {
+        text-align:center;
+    
+}
+@media screen and (max-width: 760px)
+    .image3 {
+        text-align:center;
+        justify-content:center;
+    
 }

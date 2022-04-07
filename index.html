@@ -4,32 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+          background-image: url('assets/css/background.jpeg');
+        }
+        </style>
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Elizabeth Billings-Lewis // Web Developer</title>
    
 </head>
 <body>
+
     <header>
+        
         <nav>
             <h1>Elizabeth Billings-Lewis</h1>    
-            <a href="aboutme">About Me</a>
-            <a href="Work">Work</a>
-            <a href="Contact">Contact</a>
-            <a href="Resume">Resume</a>
-            </section>
+            <div id="toplinks">
+            <a href="#about-me-anchor"> About Me </a>
+            <a href="#work-anchor"> Work </a>
+            <a href="#contact-anchor"> Contact </a>
+            <a href="https://docs.google.com/document/d/1a9P7WsILnVackBa3cChz7bztQXsa0SlUizUo3cAqwdI/edit?usp=sharing"> Resume </a>
+            <a href="https://github.com/elizabethbillings93"> Github </a>
+            </div>
+        </section>
         </nav>
+        
     </header>
-    <section class="image3">
-        <div>
-            <img src="./assets/css/brownzigzag.jpeg"/>
-            <h2>Check Me Out!</h2>
-        </div>
+    <div>
+    <section>
+        <center>
+        <img id="image3" src ="assets/css/headshot.jpeg"></img>
+        </center>
     </section>
     
 
     <main class="personalbackground">
        <section class="about" id="details">
-        <h2>About Me|</h2>
+           <a id="about-me-anchor">
+        <h2>About Me</h2>
         <div>
             <body>
                 <p>
@@ -40,41 +52,63 @@
                 I am currently attending Georgia Tech Coding Bootcamp and plan to be certified by June. 
                 </p>
             </body>
+            </a>
         </div>
         </section>
    
     <section class="port" id="Work">
-        <h2>Work|</h2>
         <div>
-            <img src="assets/css/bluesky.jpeg" class= "surf report">
-            <h3>Surf Report</h3>
-            <span>Node/IoT</span>
+            <a id="work-anchor">
+        <h2 class= "worktitle">Work </h2>
         </a>
-        </div>
+        <br>
+       <section class="worklist">
+            <div id="srcontainer">
+                <img src="assets/css/bison1.JPG" class= "surfreportimage">
+            <div class="surfreport">   
+                <h3>Surf Report</h3>
+            <span>Node/IoT</span>
+            </div>   
+        </section>
+        <br>
+        
         <div id="calculator">
+            <img src="assets/css/deer.JPG" class= "calculatorimage">
+            <div class="calclist">
             <h3>Calculator</h3>
             <span>React/JavaScript/CSS</span>
         </div>
-        <div id="run buddy">
+        </div>
+        <br>
+        <div id="runbuddy">
+            <img src="assets/css/hotspring.JPG" class= "runbuddyimage">
+            <div id="runbuddylist">
             <h3>Run Buddy</h3>
+            </div>
             <span><HTML/CSS</span>
         </div>
+        </div>
+        </div>
+    </section>
+    <section>
+        <a id="contact-anchor">
+            <h3>Contact</h3>
+            <p>
+                Telephone: 817-470-5876
+            </p>
+            <p>Email: elizabethbillings93@gmail.com</p>
+        </a>
     </section>
 
-    <section class="Endinggroup" id="contact">
-        <h2>Contact Me</h2>
-        <div class="contact">
-            <add>
-                <ul>
-                <a href="tel:+817-470-5876">Phone</a>
-                <a href="elizabethbillings93@gmail.com">Email</a>
-                <a href="https://github.com/elizabethbillings93">Github</a>
-                </ul>
-            </add>
-
-        </div>
-    </section> 
+   
     </main>
+   
 </body>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+
+
 
 </html>

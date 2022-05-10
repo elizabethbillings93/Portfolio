@@ -6,7 +6,9 @@
     font-family: 'barlow condensed', sans-serif;
     border:solid white 90px;
 }
-
+main{
+    flex-wrap:flex;
+}
 header h1{
     font-size: 100px;
     padding:5px;
@@ -22,17 +24,22 @@ header h1{
 }
 
 #image3 {
-    display:block;
+    
     padding-top: 0px;
     border: solid white 10px;
     border-radius: 5px;
     height: 600px;
     image-resolution: 600px;
     margin-top: 20px;
-    flex-shrink: inherit;
+    -webkit-flex-wrap:wrap;
     
 }
-    
+.listofwork{
+    display:flex;
+    justify-content: center;
+    flex-wrap:flex;
+    justify-content: space-evenly;
+}  
 nav{
     display:flex;
     flex-direction:row;
@@ -86,72 +93,48 @@ nav a{
     padding-bottom: 50px;
     
 }
-.port {
-    position:relative;
-    color:white;
-   
-}
-
-.port h3 {
-    font-size:30px;
-}
 
 .surfreportimage{
     height: 300px;
+
 }
-.surfreport{
-    border: solid white 5px;
-    color:rgb(186, 194, 191);
-    width: 300px;
-    padding-bottom: 10px;
-    
-   
+.genimage{
+    height: 300px;
+
 }
+
 #srcontainer{
-    background-color:white;
-    display: inline-flex;
-    text-align:center;
-    padding:10px;
-    margin-left: 10%;
-    margin-top: 10%;
-}
-.calculatorimage{
-    height:300px;
-}
-.calclist{
-    border: solid white 5px;
-    color:rgb(186, 194, 191);
-    width: 300px;
-    padding-bottom: 10px;
-   
-}
-#calculator{
     background-color:white;
     justify-content: center;
     text-align:center;
     padding: 10px;
-    display:inline-flex;
-    margin-left:25%;
-    margin-bottom: 20px;
-}
-.runbuddyimage{
-    height:400px;
-}
-#runbuddy{
-    display:inline-flex;
-    background-color:white;
-    text-align:center;
-    padding:10px;
-    margin-left: 25%;
-    padding-right: 194px;
-    margin-bottom: 10px;
-}
-#runbuddylist{
-    border: solid white 5px;
     color:rgb(186, 194, 191);
-    width: 300px;
-    padding-bottom: 10px;
+    box-sizing: content-box;
 }
+#generator{
+    background-color:white;
+    justify-content: center;
+    text-align:center;
+    padding: 10px;
+    color:rgb(186, 194, 191);
+    box-sizing: content-box;
+}
+.calendarimage{
+    height:300px;
+    
+}
+
+#calendar{
+    background-color:white;
+    justify-content: center;
+    text-align:center;
+    padding: 10px;
+    margin-right:5px;
+    color:rgb(186, 194, 191);
+    box-sizing: content-box;
+   
+}
+
 .Endinggroup {
     margin: 20px;
     text-decoration:none;
@@ -169,10 +152,9 @@ nav a{
     border-width: 10px;
     padding-right: 9.5px;
     padding-top: 20px;
+    margin-right: 5px;
 }
-.worklist{
-    justify-content: center;
-}
+
 
 .header-image {
     width: 100%;
@@ -183,3 +165,30 @@ nav a{
     font-size: 40px;
     text-align:center;
 }
+#calendarlist{
+    margin-top:20px;
+}
+#generatorreport{
+    margin-top:20px;
+}
+#calendarlink{
+    text-decoration:none;
+    color: rgb(186, 194, 191);
+    text-align: center;
+}
+#lendlink{
+    text-decoration:none;
+    color: rgb(186, 194, 191);
+    text-align: center;
+}
+#genlink{
+    text-decoration:none;
+    color: rgb(186, 194, 191);
+    text-align: center;
+}
+
+@media all and (max-width: 480px) {  
+    .nav { flex-basis: 100%; }  }
+
+@media all and (max-width: 480px) {  
+        .listofwork { flex-basis: 100%; }  }

@@ -1,8 +1,20 @@
 # Portfolio
 
-This is the portfolio of Elizabeth Billings Lewis. 
-There is a link to the resume when clicked "resume" on homepage. 
+This is the portfolio of Elizabeth Lewis. 
+There are links for a resume, github, and LinkedIn.
 Contacts are below which the pages jumps to when clicked "contact."
-There is a family calendar project linked which was a group project designed to have a clean calendar to help organize multiple family members events. 
+There is a family calendar project and an inventory managment system linked.
 
-![Alt text]()
+
+##Content
+ ###About Me
+ ###Work
+ ###Contact
+
+
+
+##Deployed Site
+https://elizabethbillings93.github.io/Portfolio/
+
+##Author
+Elizabeth Lewis (Github: https://github.com/elizabethbillings93)
